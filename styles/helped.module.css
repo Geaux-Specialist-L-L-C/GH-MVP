@@ -1,0 +1,278 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #333;
+}
+
+.comingSoonBanner {
+  background-color: #4a6fa5;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 0;
+  background: linear-gradient(to right, #f0f4f8, #e3eaf2);
+  border-radius: 15px;
+  margin-bottom: 3rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #2c4c7c;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #4a6fa5;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  max-width: 700px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.ctaButton {
+  padding: 12px 24px;
+  background-color: #2c4c7c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: #1e3b68;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Features Section */
+.features {
+  margin-bottom: 3rem;
+}
+
+.features h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #2c4c7c;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.featureCard {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+}
+
+.featureIcon {
+  margin-bottom: 1rem;
+  background-color: #eef4ff;
+  padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featureCard h3 {
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+  color: #2c4c7c;
+}
+
+.featureCard p {
+  color: #666;
+  line-height: 1.5;
+}
+
+/* How It Works */
+.howItWorks {
+  margin-bottom: 3rem;
+  background-color: #f9fafc;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.howItWorks h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #2c4c7c;
+}
+
+.stepList {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-left: 2rem;
+}
+
+.stepList li {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+  line-height: 1.5;
+}
+
+/* CTA Form */
+.ctaForm {
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 3rem;
+}
+
+.ctaForm h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2c4c7c;
+}
+
+.ctaForm p {
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.formGroup label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.input {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.input:focus {
+  border-color: #4a6fa5;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(74, 111, 165, 0.1);
+}
+
+.errorMessage {
+  color: #e53e3e;
+  margin-top: -0.5rem;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.submitButton {
+  padding: 12px 24px;
+  background-color: #2c4c7c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #1e3b68;
+}
+
+.thankYouMessage {
+  background-color: #eef4ff;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.thankYouMessage h3 {
+  color: #2c4c7c;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #2c4c7c;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 1rem;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.3rem;
+  }
+  
+  .ctaForm {
+    padding: 2rem 1rem;
+  }
+  
+  .featureGrid {
+    grid-template-columns: 1fr;
+  }
+}

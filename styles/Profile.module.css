@@ -1,0 +1,104 @@
+.container {
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #2c4c7c;
+  margin-bottom: 2rem;
+}
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}
+
+.errorMessage {
+  background-color: #fed7d7;
+  border: 1px solid #feb2b2;
+  color: #c53030;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.errorMessage button {
+  background-color: #c53030;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.successMessage {
+  background-color: #c6f6d5;
+  border: 1px solid #9ae6b4;
+  color: #276749;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.profileGrid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2rem;
+}
+
+.profileSidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfoCard {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.userInfoCard h2 {
+  margin-top: 0;
+  color: #2c4c7c;
+}
+
+.userRole {
+  text-transform: capitalize;
+  color: #4a6fa5;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.userEmail {
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .profileGrid {
+    grid-template-columns: 1fr;
+  }
+}

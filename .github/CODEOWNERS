@@ -1,0 +1,12 @@
+# These owners will be the default owners for everything in the repo.
+* @evopimp
+
+# Backend code owners
+/backend/ @evopimp
+
+# Frontend code owners
+/frontend/ @evopimp
+/pages/ @evopimp
+/components/ @evopimp
+/public/ @evopimp
+/styles/ @evopimp
